@@ -228,8 +228,8 @@ li{
 
 .whats-app{
     position: fixed;
-    right: 400px;
-    bottom: 80px;
+    right: 80px;
+    bottom: 50px;
     border:100px;
 }
 
@@ -856,7 +856,6 @@ table{
 
     nav.navbar.navbar-expand-lg.navbar-light.bg-light{
 
-        color: rgb(14, 13, 13) !important;
         background-color:rgb(199, 174, 199) !important;
         width: 700px;
         }
