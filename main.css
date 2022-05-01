@@ -2,6 +2,15 @@
 }
 
 
+body{ 
+    position: relative;
+     min-height: 100%;
+      top: 0px;
+
+
+}
+
+
 .contenedorprincipal{
 
     background-color: rgb(236, 243, 235);
@@ -153,6 +162,7 @@ main{
     background-size:contain;
     background-repeat: repeat;
     width: 1040px;
+    height: 1250px;
     border: solid;
     border-color: rgb(124, 124, 124);
     border-radius: 5px;
@@ -160,10 +170,10 @@ main{
 
 .fonfamily{
     background-image:url("https://previews.123rf.com/images/yarruta/yarruta1903/yarruta190300231/119706105-familia-feliz-con-dos-ni%C3%B1os-jugando-en-casa-nueva-padre-madre-e-hijos-divirti%C3%A9ndose-juntos-d%C3%ADa-de-la.jpg");
-    background-size: 100% 100%;
+    background-size: 100% 80%;
     background-repeat: no-repeat;
     width: 1000px;
-    height: 1300px;
+    height: 1200px;
     justify-content: flex-start;
     display: grid;
     grid-template-rows:repeat(2, 1fr);
