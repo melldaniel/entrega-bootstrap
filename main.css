@@ -869,14 +869,15 @@ article{
     width: 980px;
     height: 1000px;
     margin: none;
-    grid-template-rows: 15% 70% 15%;
+    grid-template-rows: 20% 70% 5%;
     grid-template-columns: 55% 45%;
     grid-column-gap: 10px;
+    justify-items: start;
     grid-row-gap: 20px;
-    grid-template-areas: "desart desart "   
+    grid-template-areas: "desart desart"   
                           "emp  comercial" 
-                          "masinfo  masinfo"
-                          ;
+                          "btn-secondarybtn-sm  btn-secondarybtn-sm "
+                             ;
                                 }
                        
 
@@ -903,9 +904,10 @@ article{
         
 }
                         
-.masinfo{
+.btn-secondarybtn-sm{
                           
-    grid-area: masinfo;
+    grid-area: button;
+    background-color:none!important;
    
    }
 
@@ -923,6 +925,10 @@ article{
     
 
 }
+
+
+
+
 
 
 }
