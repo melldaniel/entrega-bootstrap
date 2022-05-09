@@ -1,3 +1,9 @@
+$color-principal: rgb(184, 157, 184);
+
+@import "_nav";
+@import "_footer";
+
+
 
 body{
     width: 1050px;
@@ -8,7 +14,7 @@ body{
 
 
 header{
-    background-color: rgb(184, 157, 184);
+    background-color: $color-principal;
     border: solid;
     border-color: rgb(172, 161, 161);
     padding: 5px;
@@ -113,7 +119,7 @@ h3{
     font-size: 28px;
     color: rgb(241, 236, 236);
     text-align: center;
-    background-color: rgb(179, 143, 179);
+    background-color: $color-principal;
 }
 
 
@@ -143,7 +149,7 @@ font-size: 0%;
     font-size: 30px;
     font-weight: bold;
     color: rgb(244, 243, 247);
-    background-color: rgb(179, 143, 179);
+    background-color: $color-principal;
 }
 
 
@@ -187,26 +193,7 @@ main{
 
 
 
-nav{
-    margin: 10px 20px 10px 10px;
-    list-style-type: none;
-    width: 95%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-
-.nav.navbar.navbar-expand-lg.navbar-light.bg-light{
-
-    color: rgb(14, 13, 13) !important;
-    background-color:rgb(199, 174, 199) !important;
-     width: 170px;
-     float: right;
-    
-    }
-
-
+ /* saque nav */
 
 
 ul li{
@@ -353,35 +340,7 @@ section{
 
 
 
-footer{
-    background-color: rgb(179, 143, 179);
-    padding: 5px;
-    width: 1022px;
-    height: 100px;
-    border: solid;
-    border-color: rgb(102, 100, 100);
-    border-radius: 5px;
-    display: flex;
-    justify-content: space-around;
-    align-content: space-around;
-}
-
-
-
-ol{
-    color: rgb(235, 243, 243);
-    font-size: 20px;
-    justify-content: center;
-}
-
-
-footer div{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 50px;
-
-}
+/* saque footer */
 
 input{
     margin: 2px;
@@ -566,11 +525,11 @@ input{
         
         }
     
-    
+    /* saque nav */
     
     
         header{
-            background-color: rgb(184, 157, 184);
+            background-color: $color-principal;
             border: solid;
             border-color: rgb(105, 98, 98);
             padding: 5px;
@@ -593,22 +552,6 @@ input{
         }
     
     
-        nav{
-            margin: 10px 20px 20px 10px;
-            list-style-type: none;
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-end;
-        }
-        
-    
-        nav.navbar.navbar-expand-lg.navbar-light.bg-light{
-    
-            color: rgb(14, 13, 13) !important;
-            background-color:rgb(199, 174, 199) !important;
-            width: 300px;
-           
-            }
     
      
     
@@ -752,7 +695,7 @@ input{
     
     .itemheader{
         grid-area: itemheader;
-        background-color: rgb(184, 157, 184);
+        background-color: $color-principal;
         border: solid;
         padding: 5px;
         width: 1022px;
@@ -852,11 +795,6 @@ input{
   @media screen and (min-width:768px) {
 
 
-    nav.navbar.navbar-expand-lg.navbar-light.bg-light{
-
-        background-color:rgb(199, 174, 199) !important;
-        width: 700px;
-        }
 
 
 
