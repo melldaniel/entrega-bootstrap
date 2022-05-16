@@ -1,0 +1,17 @@
+//maps
+
+$tit: (
+    princ: #434346,
+    seg: #eae1eb,
+);
+
+@each $tit, $color in $tit {
+    .tit-#{$tit} {
+     color: $color;
+     font-size: 30px;
+     font-family: 'sans-serif', 'Times New Roman', 'Times', 'serif';
+    text-align: center;
+    }
+
+
+}

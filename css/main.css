@@ -55,6 +55,18 @@ footer div {
   justify-content: space-around;
   height: 50px; }
 
+.tit-princ {
+  color: #434346;
+  font-size: 30px;
+  font-family: 'sans-serif', 'Times New Roman', 'Times', 'serif';
+  text-align: center; }
+
+.tit-seg {
+  color: #eae1eb;
+  font-size: 30px;
+  font-family: 'sans-serif', 'Times New Roman', 'Times', 'serif';
+  text-align: center; }
+
 body {
   width: 1050px;
   height: 100%;
@@ -95,11 +107,6 @@ header {
   align-content: center;
   grid-template-columns: repeat(1, 3fr);
   justify-items: center; }
-
-h1 {
-  font-size: 30px;
-  color: #312e31;
-  font-family: 'sans-serif','Times New Roman', 'Times', 'serif'; }
 
 h2 {
   font-size: 35px;
@@ -156,7 +163,7 @@ p {
 span {
   color: #292a3f;
   font-weight: bold;
-  font-size: 25px; }
+  font-size: 20px; }
 
 main {
   background-image: url("../public/fondepantalla2.jpg");
@@ -213,10 +220,19 @@ img {
   border-radius: 25px;
   border-color: #6d6969;
   padding: 10px; }
-  img .comercial {
-    width: 80%;
-    height: 80%;
-    margin: 20px 15px 10px 5px; }
+
+.img, .comercial {
+  border: solid;
+  border-radius: 25px;
+  border-color: #6d6969;
+  padding: 10px; }
+
+.comercial {
+  width: 80%;
+  height: 80%;
+  margin: 20px 15px 10px 5px;
+  text-align: center;
+  display: flex; }
 
 .oficina {
   width: 100%;
@@ -251,6 +267,7 @@ article {
   border-radius: 5px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
   justify-content: center;
   align-items: center; }
 
@@ -436,11 +453,6 @@ tr {
     height: 65%;
     align-content: left;
     grid-template-columns: repeat(2, 1fr); }
-  h1 {
-    color: #312e31;
-    display: flexbox;
-    text-align: center;
-    font-size: 30px; }
   li {
     color: #060707;
     font-size: 20px; }
@@ -496,7 +508,7 @@ tr {
     border-color: #4e4d4d;
     border-radius: 5px;
     display: grid; }
-  .img.comercial {
+  .img.comercial, .comercial {
     width: 80%;
     padding: 10px;
     margin: 20px 15px 10px 5px;

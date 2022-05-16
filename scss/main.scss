@@ -2,7 +2,7 @@ $color-principal: rgb(184, 157, 184);
 
 @import "_nav";
 @import "_footer";
-
+@import "_tith1";
 
 
 body{
@@ -55,10 +55,6 @@ header{
 
 
 
-
-
-
-
 .encabe{
     border: none;
     width: 90%;
@@ -72,13 +68,6 @@ header{
 }
 
 
-
-
-h1{
-    font-size: 30px;
-    color: rgb(49, 46, 49);
-    font-family: 'sans-serif','Times New Roman', 'Times', 'serif';
-}
 
 
 h2{
@@ -164,7 +153,7 @@ font-size: 0%;
 span{
     color: rgb(41, 42, 63);
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
@@ -237,20 +226,32 @@ a:hover{
   }
 
 
-img{
-     
+img {
     border: solid;
     border-radius: 25px;
     border-color: rgb(109, 105, 105);
     padding: 10px;
+}
 
+
+//extend
+
+.img{
+    border: solid;
+    border-radius: 25px;
+    border-color: rgb(109, 105, 105);
+    padding: 10px;
+}
 .comercial{
+   @extend .img;
     width: 80%;
     height: 80%;
     margin: 20px 15px 10px 5px;
+    text-align: center;
+    display: flex;
    
 }
-}
+
 
 
 .oficina{
@@ -297,6 +298,7 @@ article{
     border-radius: 5px;
     display: grid;
     grid-template-columns:repeat(1, 1fr);
+    justify-items: center;
     justify-content: center;
     align-items: center;
 }
@@ -396,11 +398,23 @@ input{
         align-items: flex-start;
     }
     
+
+//Mixins
+@mixin size($alto, $ancho, $tam-texto) {
+
+width: $alto;
+height: $ancho;
+font-size: $tam-texto;
+
+}
+    
     .divprop{
-    width: 100px;
-    height: 30px;
-    font-size: 20px;
+    @include size(100px,30px,20px)
+   
     }
+
+
+    
     
     .pprop{
      font-size: 18px;
@@ -555,9 +569,6 @@ input{
     
     
     
-     
-    
-    
         .encabe{
             border: none;
             width: 90%;
@@ -569,14 +580,7 @@ input{
     
         }
 
-        h1{
-            color:rgb(49, 46, 49); 
-            display: flexbox;
-            text-align:center;
-            font-size: 30px;
-            
-        }
-    
+
         li{
             color: rgb(6, 7, 7);
             font-size: 20px;
@@ -861,6 +865,7 @@ article{
     border: solid;
     border-color: rgb(109, 105, 105);
     border-radius: 25px;
+   
     
 
 }
