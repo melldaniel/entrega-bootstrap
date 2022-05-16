@@ -19,10 +19,11 @@ header{
     border-color: rgb(172, 161, 161);
     padding: 5px;
     width: 1050px;
-    height: 300px;
+    height: 380px;
     padding: 8px; 
 }
  
+
 
 .home-header{
     background-image: url("../public/fondepantalla2.jpg");
@@ -74,7 +75,7 @@ header{
 
 
 h1{
-    font-size: 50px;
+    font-size: 30px;
     color: rgb(49, 46, 49);
     font-family: 'sans-serif','Times New Roman', 'Times', 'serif';
 }
@@ -451,7 +452,7 @@ input{
     }
     
     .iconos{
-        margin: 40px 40px 40px 40px;
+        margin: 20px 20px 20px 20px;
        
     }
     
@@ -534,6 +535,7 @@ input{
             border-color: rgb(105, 98, 98);
             padding: 5px;
             width: 1040px;
+            height: 380px;
             padding: 8px; 
         }
          
@@ -568,9 +570,10 @@ input{
         }
 
         h1{
+            color:rgb(49, 46, 49); 
             display: flexbox;
             text-align:center;
-            font-size: 38px;
+            font-size: 30px;
             
         }
     

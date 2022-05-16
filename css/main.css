@@ -33,18 +33,21 @@ footer {
   background-color: #b38fb3;
   padding: 5px;
   width: 1022px;
-  height: 100px;
+  height: 120px;
   border: solid;
   border-color: #666464;
-  border-radius: 5px;
+  border-radius: 2px;
   display: flex;
   justify-content: space-around;
-  align-content: space-around; }
+  align-content: space-around;
+  align-items: flex-end; }
 
 ol {
   color: #ebf3f3;
   font-size: 20px;
-  justify-content: center; }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; }
 
 footer div {
   display: flex;
@@ -63,7 +66,7 @@ header {
   border-color: #aca1a1;
   padding: 5px;
   width: 1050px;
-  height: 300px;
+  height: 380px;
   padding: 8px; }
 
 .home-header {
@@ -94,7 +97,7 @@ header {
   justify-items: center; }
 
 h1 {
-  font-size: 50px;
+  font-size: 30px;
   color: #312e31;
   font-family: 'sans-serif','Times New Roman', 'Times', 'serif'; }
 
@@ -364,7 +367,7 @@ tr {
   font-size: 20px; }
 
 .iconos {
-  margin: 40px 40px 40px 40px; }
+  margin: 20px 20px 20px 20px; }
 
 .iconos:hover {
   transform: scale(2); }
@@ -414,6 +417,7 @@ tr {
     border-color: #696262;
     padding: 5px;
     width: 1040px;
+    height: 380px;
     padding: 8px; }
   .home-header {
     background-image: url("../public/fondepantalla2.jpg");
@@ -433,9 +437,10 @@ tr {
     align-content: left;
     grid-template-columns: repeat(2, 1fr); }
   h1 {
+    color: #312e31;
     display: flexbox;
     text-align: center;
-    font-size: 38px; }
+    font-size: 30px; }
   li {
     color: #060707;
     font-size: 20px; }
