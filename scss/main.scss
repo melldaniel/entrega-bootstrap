@@ -2,7 +2,7 @@ $color-principal: rgb(184, 157, 184);
 
 @import "_nav";
 @import "_footer";
-@import "_tith1";
+@import "_sass2";
 
 
 body{
@@ -234,24 +234,6 @@ img {
 }
 
 
-//extend
-
-.img{
-    border: solid;
-    border-radius: 25px;
-    border-color: rgb(109, 105, 105);
-    padding: 10px;
-}
-.comercial{
-   @extend .img;
-    width: 80%;
-    height: 80%;
-    margin: 20px 15px 10px 5px;
-    text-align: center;
-    display: flex;
-   
-}
-
 
 
 .oficina{
@@ -399,22 +381,6 @@ input{
     }
     
 
-//Mixins
-@mixin size($alto, $ancho, $tam-texto) {
-
-width: $alto;
-height: $ancho;
-font-size: $tam-texto;
-
-}
-    
-    .divprop{
-    @include size(100px,30px,20px)
-   
-    }
-
-
-    
     
     .pprop{
      font-size: 18px;
@@ -571,7 +537,7 @@ font-size: $tam-texto;
     
         .encabe{
             border: none;
-            width: 90%;
+            width: 95%;
             flex-direction: row;
             display: grid;
             height: 65%;

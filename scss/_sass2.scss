@@ -1,0 +1,54 @@
+//maps
+
+$tit: (
+    princ: #434346,
+    seg: #eae1eb,
+);
+
+@each $tit, $color in $tit {
+    .tit-#{$tit} {
+     color: $color;
+     font-size: 30px;
+     font-family: 'sans-serif', 'Times New Roman', 'Times', 'serif';
+    text-align: center;
+    }
+
+
+}
+
+
+
+// Mixins
+
+@mixin size($alto, $ancho, $tam-texto) {
+
+    width: $alto;
+    height: $ancho;
+    font-size: $tam-texto;
+
+}
+
+.divprop {
+    @include size(100px, 30px, 20px)
+}
+
+
+
+//extend
+
+.img {
+    border: solid;
+    border-radius: 25px;
+    border-color: rgb(109, 105, 105);
+    padding: 10px;
+}
+
+.comercial {
+    @extend .img;
+    width: 80%;
+    height: 80%;
+    margin: 20px 15px 10px 5px;
+    text-align: center;
+    display: flex;
+
+}
