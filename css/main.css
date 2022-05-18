@@ -22,12 +22,15 @@ nav {
   nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     color: #0e0d0d !important;
     background-color: #c7aec7 !important;
-    width: 300px; } }
+    width: 300px;
+    float: right; } }
 
 @media screen and (min-width: 768px) {
   nav.navbar.navbar-expand-lg.navbar-light.bg-light {
-    background-color: #b89db8 !important;
-    width: 700px; } }
+    width: 700px;
+    color: #0e0d0d !important;
+    background-color: #c7aec7 !important;
+    float: right; } }
 
 footer {
   background-color: #b38fb3;

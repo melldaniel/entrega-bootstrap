@@ -12,7 +12,7 @@ Description-  Modificado en todos los html con parte fija y variables, según p�
 Favicon- Agregué el mismo logo que aparece en mi header.
 
 
-SASS
+SASS (Creado en archivo _sass)
 Mapas- Agregué el nombre de la inmobiliaria en todos mis header haciendo cambio de color, ya que mi index tiene un background de imagen distinta a los demas html que es un color pleno.
 
 Extend- Agregué a mi clase imgcomercial las mismas propiedades que tiene mi clase .img.
