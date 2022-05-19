@@ -58,10 +58,10 @@ header{
 .encabe{
     border: none;
     width: 90%;
-    flex-direction: row;
     display: grid;
+    flex-direction: row;
     height: 65%;
-    align-content: center;
+    
     grid-template-columns:repeat(1,3fr);
     justify-items: center;
     
@@ -183,7 +183,6 @@ main{
 
 
 
- /* saque nav */
 
 
 ul li{
@@ -506,7 +505,6 @@ input{
         
         }
     
-    /* saque nav */
     
     
         header{

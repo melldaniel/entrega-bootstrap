@@ -8,20 +8,22 @@ nav {
 
 .nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   color: #0e0d0d !important;
-  background-color: #b89db8 !important;
+  background-color: #645664 !important;
   width: 170px;
   float: right; }
 
 @media screen and (min-width: 425px) {
   nav {
-    margin: 10px 20px 20px 10px;
+    margin: 10px 10px 10px 10px;
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end; }
+    justify-content: flex-end;
+    color: #0e0d0d !important;
+    background-color: #b89db8 !important; }
   nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     color: #0e0d0d !important;
-    background-color: #c7aec7 !important;
+    background-color: #e6dde6 !important;
     width: 300px;
     float: right; } }
 
@@ -29,7 +31,7 @@ nav {
   nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     width: 700px;
     color: #0e0d0d !important;
-    background-color: #c7aec7 !important;
+    background-color: #d6cad6 !important;
     float: right; } }
 
 footer {
@@ -122,10 +124,9 @@ header {
 .encabe {
   border: none;
   width: 90%;
-  flex-direction: row;
   display: grid;
+  flex-direction: row;
   height: 65%;
-  align-content: center;
   grid-template-columns: repeat(1, 3fr);
   justify-items: center; }
 
@@ -208,7 +209,6 @@ main {
   align-items: center;
   justify-content: start; }
 
-/* saque nav */
 ul li {
   display: flex;
   flex-direction: row;
@@ -430,7 +430,6 @@ tr {
     display: grid;
     width: 1050px;
     height: 100%; }
-  /* saque nav */
   header {
     background-color: #b89db8;
     border: solid;
